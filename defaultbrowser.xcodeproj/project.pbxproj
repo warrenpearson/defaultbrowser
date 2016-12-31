@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2E3ADF7E196311B800D74116 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3ADF7D196311B800D74116 /* Foundation.framework */; };
 		2E3ADF81196311B800D74116 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3ADF80196311B800D74116 /* main.m */; };
-		2E3ADF85196311B800D74116 /* defaultbrowser.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2E3ADF84196311B800D74116 /* defaultbrowser.1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,7 +18,6 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				2E3ADF85196311B800D74116 /* defaultbrowser.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -30,7 +28,6 @@
 		2E3ADF7D196311B800D74116 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2E3ADF80196311B800D74116 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2E3ADF83196311B800D74116 /* defaultbrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "defaultbrowser-Prefix.pch"; sourceTree = "<group>"; };
-		2E3ADF84196311B800D74116 /* defaultbrowser.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = defaultbrowser.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				2E3ADF80196311B800D74116 /* main.m */,
-				2E3ADF84196311B800D74116 /* defaultbrowser.1 */,
 				2E3ADF82196311B800D74116 /* Supporting Files */,
 			);
 			path = defaultbrowser;
@@ -253,6 +249,7 @@
 				2E3ADF8A196311B800D74116 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
